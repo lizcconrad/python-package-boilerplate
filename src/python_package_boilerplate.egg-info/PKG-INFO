@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: python-package-boilerplate
+Version: 0.0.1
+Summary: a boilerplate package for python
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+
+README.md
+

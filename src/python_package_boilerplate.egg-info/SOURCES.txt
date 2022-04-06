@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.cfg
+src/python_package_boilerplate.egg-info/PKG-INFO
+src/python_package_boilerplate.egg-info/SOURCES.txt
+src/python_package_boilerplate.egg-info/dependency_links.txt
+src/python_package_boilerplate.egg-info/top_level.txt

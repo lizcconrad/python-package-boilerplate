@@ -46,16 +46,16 @@ The structure is as follows:
 
 ## `python-package-boilerplate/` files
 
-[README.md]() is the README file for your project, in Markdown.
+[README.md](https://github.com/lizcconrad/python-package-boilerplate/blob/master/README.md) is the README file for your project, in Markdown.
 
-[LICENSE]() is the license your project is distributed under (the default for this template is [MIT](https://opensource.org/licenses/MIT)).
+[LICENSE](https://github.com/lizcconrad/python-package-boilerplate/blob/master/LICENSE) is the license your project is distributed under (the default for this template is [MIT](https://opensource.org/licenses/MIT)). **FILL IN THE YEAR AND YOUR NAME!**
 
-[pyproject.toml]() is specifies the build system, and in this template is filled out with default information[^1].
+[pyproject.toml](https://github.com/lizcconrad/python-package-boilerplate/blob/master/pyproject.toml) is specifies the build system, and in this template is filled out with default information[^1].
 
 [^1]: https://setuptools.pypa.io/en/latest/build_meta.html
 
 
-[setup.cfg]() is a configuration file used to configure `setuptools` and provide metadata about your project. Because this template assumes a `src/` structure for the package (that is, the code for the package is included in a subdirectory named `src/`), `setup.cfg` instructs `setuptools` to look there for the package itself[^2]. If your package has dependencies, they should be put here under `[options]` like so[^3]:
+[setup.cfg](https://github.com/lizcconrad/python-package-boilerplate/blob/master/setup.cfg) is a configuration file used to configure `setuptools` and provide metadata about your project. Because this template assumes a `src/` structure for the package (that is, the code for the package is included in a subdirectory named `src/`), `setup.cfg` instructs `setuptools` to look there for the package itself[^2]. If your package has dependencies, they should be put here under `[options]` like so[^3]:
 
 ```
 [options]
@@ -71,7 +71,7 @@ This `setup.cfg` also assumes that the project you're working on requires Python
 
 [^3]: https://setuptools.pypa.io/en/latest/userguide/dependency_management.html
 
-[.gitignore]() includes a number of things that should not be pushed to the git repo for your project, this may need to be updated for your needs. A great template for putting together your own `.gitignore` file can be found [here](https://github.com/github/gitignore/blob/main/Python.gitignore).
+[.gitignore](https://github.com/lizcconrad/python-package-boilerplate/blob/master/.gitignore) includes a number of things that should not be pushed to the git repo for your project, this may need to be updated for your needs. A great template for putting together your own `.gitignore` file can be found [here](https://github.com/github/gitignore/blob/main/Python.gitignore).
 
 ## `src/` files
 
@@ -79,22 +79,24 @@ This template assumes a `src/` structure for your project, which has a few benef
 
 [^4]: https://hynek.me/articles/testing-packaging/
 
-[python_package_boilerplate/]() is the top level directory for the code of your project.
+`python_package_boilerplate/` is the top level directory for the code of your project.
 
-[src/]() is a subdirectory of `python_package_boilerplate/` which contains the actual code for your package 
+[src/](https://github.com/lizcconrad/python-package-boilerplate/tree/master/src) is a subdirectory of `python_package_boilerplate/`
 
-[\_\_init\_\_.py]() essentially let's python know that this directory indeed is a package, it's left empty for this boilerplate project.
+[mypackage/](https://github.com/lizcconrad/python-package-boilerplate/tree/master/src/mypackage) is a subdirectory of `src/` and contains the actual code for your package.
 
-[module.py]() is your main module, assuming your package would be put into one module. Be sure to rename this to something better for your own project!
+[\_\_init\_\_.py](https://github.com/lizcconrad/python-package-boilerplate/blob/master/src/mypackage/__init__.py) essentially let's python know that this directory indeed is a package, it's left empty for this boilerplate project.
+
+[module.py](https://github.com/lizcconrad/python-package-boilerplate/blob/master/src/mypackage/module.py) is your main module, assuming your package would be put into one module. Be sure to rename this to something better for your own project!
 
 
 
 ## `docs/` files
 This directory contains some starter Sphinx documentation files.
 
-[`build/`]() is the directory for the built files of your Sphinx documentation, you shouldn't touch anything here. It isn't present in this repository, but it will appear when you build the documentation. 
+`build/` is the directory for the built files of your Sphinx documentation, you shouldn't touch anything here. It isn't present in this repository, but it will appear when you build the documentation. 
 
-[`source/`]() is the directory with the files you'll actually work with. As it is now, `conf.py` is set up appropriately to generate the Sphinx documentation with AutoAPI so that it pulls docstrings from your python code in 'src/'. Do whatever you need to do with this documentation!
+[source/](https://github.com/lizcconrad/python-package-boilerplate/tree/master/docs/source) is the directory with the files you'll actually work with. As it is now, `conf.py` is set up appropriately to generate the Sphinx documentation with AutoAPI so that it pulls docstrings from your python code in 'src/'. Do whatever you need to do with this documentation!
 
 A readthedocs tutorial can be found [here](https://sphinx-tutorial.readthedocs.io/step-1/).
 
@@ -113,9 +115,9 @@ When pushing your repository to github, you can import it as a project on your r
 
 
 ## `tests/` files
-[\_\_init\_\_.py]() essentially let's python know that this directory is a package, it's left empty for the test directory too. 
+[\_\_init\_\_.py](https://github.com/lizcconrad/python-package-boilerplate/blob/master/tests/__init__.py) essentially let's python know that this directory is a package, it's left empty for the test directory too. 
 
-[tests_module.py]() contains a very basic unit test, though depending on the size of your project, you may want to split your tests into multiple files. You can learn about the python `unittest` framework [here](https://docs.python.org/3/library/unittest.html) and [here](https://geekflare.com/unit-testing-with-python-unittest/).
+[tests_module.py](https://github.com/lizcconrad/python-package-boilerplate/blob/master/tests/tests_module.py) contains a very basic unit test, though depending on the size of your project, you may want to split your tests into multiple files. You can learn about the python `unittest` framework [here](https://docs.python.org/3/library/unittest.html) and [here](https://geekflare.com/unit-testing-with-python-unittest/).
 
 
 

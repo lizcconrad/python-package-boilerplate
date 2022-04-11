@@ -92,7 +92,11 @@ This template assumes a `src/` structure for your project, which has a few benef
 
 
 ## `docs/` files
-This directory contains some starter Sphinx documentation files.
+This directory contains some starter Sphinx documentation files. It assumes you have installed the `sphinx-rtd-theme` which you can get by running the following:
+
+```sh
+pip install sphinx_rtd_theme
+```
 
 `build/` is the directory for the built files of your Sphinx documentation, you shouldn't touch anything here. It isn't present in this repository, but it will appear when you build the documentation. 
 
